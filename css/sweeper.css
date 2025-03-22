@@ -1,0 +1,41 @@
+.hpScLgs {
+  overflow: hidden;
+  padding: 20px 0;
+  background: #ffffff;
+  position: relative; /* Ensure the shadow appears */
+  border-radius: 10px; /* Smooth edges */
+  box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.2), /* Stronger Top shadow */
+              0 10px 15px rgba(0, 0, 0, 0.2);  /* Stronger Bottom shadow */
+  z-index: 1; /* Make sure it's above other elements */
+}
+
+.scroll-wrapper {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 40px;
+  animation: scroll 10s linear infinite;
+  white-space: nowrap;
+}
+
+.scroll-content img {
+  width: 80px; /* Adjust size */
+  height: auto;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+ .ftTop {
+            padding: 1px 0 5px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
