@@ -10,11 +10,11 @@
 */
 @font-face {
   font-family: "remixicon";
-  src: url('https://groww-social.github.io/1080/css/remixicon.eot') format('embedded-opentype'),
-       url('https://groww-social.github.io/1080/css/remixicon.woff2') format('woff2'),
-       url('https://groww-social.github.io/1080/css/remixicon.woff') format('woff'),
-       url('https://groww-social.github.io/1080/css/remixicon.ttf') format('truetype'),
-       url('https://groww-social.github.io/1080/css/remixicon.svg') format('svg');
+  src: url('https://cdn.smmspot.net/snfollows/assets/ri/remixicon.eot') format('embedded-opentype'),
+       url('https://cdn.smmspot.net/snfollows/assets/ri/remixicon.woff2') format('woff2'),
+       url('https://cdn.smmspot.net/snfollows/assets/ri/remixicon.woff') format('woff'),
+       url('https://cdn.smmspot.net/snfollows/assets/ri/remixicon.ttf') format('truetype'),
+       url('https://cdn.smmspot.net/snfollows/assets/ri/remixicon.svg') format('svg');
   font-display: swap;
 }
 
